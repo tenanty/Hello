@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<!--
+    CheckStyle 3.4 template configuration file
+    @author Oleg Estehin
+-->
+
+<!DOCTYPE module PUBLIC
+        "-//Puppy Crawl//DTD Check Configuration 1.1//EN"
+        "http://www.puppycrawl.com/dtds/configuration_1_1.dtd">
+
+<module name="Checker">
+
+    <!-- See http://checkstyle.sf.net/config_javadoc.html#PackageHtml -->
+    <!-- Checks that a package.html file exists for each package.     -->
+        <!-- <property name="fileExtensions" value="java"/> -->
+    <!--
+    <module name="PackageHtml">
+    </module>
+		-->
+
+    <!-- See http://checkstyle.sf.net/config_misc.html#NewlineAtEndOfFile -->
+    <!-- Checks whether files end with a new line.                        -->
+        <!-- <property name="lineSeparator" value="system"/> -->
+    <module name="NewlineAtEndOfFile">
+    </module>
+
+    <!-- See http://checkstyle.sf.net/config_misc.html#Translation -->
+    <!-- Checks that property files contain the same keys.         -->
+        <!-- <property name="fileExtensions" value="properties"/> -->
+    <module name="Translation">
+    </module>
+    
+</module>
